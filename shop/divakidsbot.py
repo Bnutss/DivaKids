@@ -22,7 +22,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     keyboard = [
         [KeyboardButton(text="🛒 Заказать", web_app=WebAppInfo(
-            url=f"https://46c6-195-158-19-58.ngrok-free.app/shop/products/?user_id={user_id}"))],
+            url=f"https://divakids.pythonanywhere.com/shop/products/?user_id={user_id}"))],
         [KeyboardButton(text="📦 Мои заказы")],
         [KeyboardButton(text="📝 Мои данные")],
     ]
@@ -137,7 +137,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         keyboard = [
             [KeyboardButton(text="🛒 Заказать", web_app=WebAppInfo(
-                url=f"https://fff9-195-158-19-58.ngrok-free.app/production/products/?user_id={user_id}"))],
+                url=f"https://divakids.pythonanywhere.com/production/products/?user_id={user_id}"))],
             [KeyboardButton(text="📦 Мои заказы")],
             [KeyboardButton(text="📝 Мои данные")],
         ]
@@ -154,7 +154,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             reply_markup=ReplyKeyboardMarkup(
                 [
                     [KeyboardButton(text="🛒 Заказать", web_app=WebAppInfo(
-                        url=f"https://fff9-195-158-19-58.ngrok-free.app/production/products/?user_id={user_id}"))],
+                        url=f"https://divakids.pythonanywhere.com/production/products/?user_id={user_id}"))],
                     [KeyboardButton(text="📦 Мои заказы")],
                     [KeyboardButton(text="📝 Мои данные")],
                 ],
@@ -196,7 +196,7 @@ async def handle_location(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         keyboard = [
             [KeyboardButton(text="🛒 Заказать", web_app=WebAppInfo(
-                url=f"https://fff9-195-158-19-58.ngrok-free.app/production/products/?user_id={user_id}"))],
+                url=f"https://divakids.pythonanywhere.com/production/products/?user_id={user_id}"))],
             [KeyboardButton(text="📦 Мои заказы")],
             [KeyboardButton(text="📝 Мои данные")],
         ]
