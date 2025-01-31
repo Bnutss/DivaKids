@@ -1,0 +1,32 @@
+# Исключаем SQLite базу данных
+**db.sqlite3
+
+# Кэш Python
+__pycache__/
+
+# Миграции базы данных (исключаем содержимое, но оставляем папку)
+/migrations/*
+!/migrations/__init__.py
+
+# Виртуальные окружения
+venv/
+.venv/
+
+# Настройки среды разработки
+.idea/
+.idea/
+
+# Файлы сессий
+*.session
+
+# Конфигурационные файлы среды
+.env
+
+# Медиа-файлы
+/media/
+
+# Исключаем дамп базы данных Postgres
+dump.sql
+
+# macOS system files
+.DS_Store
